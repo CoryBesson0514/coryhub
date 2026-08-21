@@ -17,7 +17,7 @@ const translations = {
     heroDescription: (
       <>
         Digital projects, automotive obsession
-        <br className="hidden sm:block" />
+        <br />
         and things I love building.
       </>
     ),
@@ -55,7 +55,7 @@ const translations = {
     heroDescription: (
       <>
         Projets digitaux, passion automobile
-        <br className="hidden sm:block" />
+        <br />
         et tout ce que j'aime créer.
       </>
     ),

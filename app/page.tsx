@@ -82,7 +82,7 @@ const translations = {
 
     visitProject: "Voir le projet →",
 
-    footerBuilt: "Design & développement par",
+    footerBuilt: "Conçu et développé par Cory.",
   },
 };
 

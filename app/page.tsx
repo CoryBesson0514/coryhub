@@ -732,7 +732,7 @@ export default function Home() {
             <div>© 2026 Cory Besson</div>
 
             <div>
-              {t.footerBuilt} <span className="text-white/60">Cory Besson</span>
+              {t.footerBuilt} <span className="text-white/60">Cory</span>
             </div>
           </footer>
         </div>

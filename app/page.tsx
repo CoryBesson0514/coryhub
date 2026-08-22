@@ -82,7 +82,7 @@ const translations = {
 
     visitProject: "Voir le projet →",
 
-    footerBuilt: "Conçu et développé par Cory.",
+    footerBuilt: "Conçu et développé par .",
   },
 };
 
@@ -732,7 +732,7 @@ export default function Home() {
             <div>© 2026 Cory Besson</div>
 
             <div>
-              {t.footerBuilt} <span className="text-white/60">Cory</span>
+              {t.footerBuilt} <span className="text-white/60">Cory.</span>
             </div>
           </footer>
         </div>

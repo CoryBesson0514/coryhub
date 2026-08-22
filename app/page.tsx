@@ -415,15 +415,15 @@ export default function Home() {
                 text-white/25
               "
             >
-              <span>Scroll !</span>
+              <span>Scroll</span>
 
               <span className="scroll-indicator text-white/40">↓</span>
             </motion.div>
           </section>
 
           {/* =====================================================
-              LITTLEWHITEUP
-          ===================================================== */}
+    LITTLEWHITEUP
+===================================================== */}
 
           <motion.a
             href="https://www.instagram.com/littlewhiteup/"
@@ -447,56 +447,166 @@ export default function Home() {
               y: -4,
             }}
             className="
-              glass
-              group
-              block
-              rounded-[32px]
-              p-3
-              transition-all
-              duration-500
-            "
+    glass
+    group
+    block
+    rounded-[32px]
+    p-3
+    transition-all
+    duration-500
+  "
           >
             <div
               className="
-                relative
-                min-h-[520px]
-                overflow-hidden
-                rounded-[24px]
-                bg-[#111]
-              "
+      relative
+      min-h-[520px]
+      overflow-hidden
+      rounded-[24px]
+      bg-[#111]
+    "
             >
-              {/* Background */}
+              {/* =================================================
+        ORIGINAL BACKGROUND
+    ================================================= */}
 
               <div
                 className="
-                  absolute
-                  inset-0
-                  bg-[radial-gradient(circle_at_70%_20%,rgba(255,255,255,.12),transparent_30%),linear-gradient(135deg,#181818,#080808)]
-                "
+        absolute
+        inset-0
+        bg-[radial-gradient(circle_at_70%_20%,rgba(255,255,255,.12),transparent_30%),linear-gradient(135deg,#181818,#080808)]
+      "
               />
 
               <div
                 className="
-                  absolute
-                  inset-0
-                  bg-gradient-to-t
-                  from-black
-                  via-black/20
-                  to-transparent
-                "
+        absolute
+        inset-0
+        bg-gradient-to-t
+        from-black
+        via-black/20
+        to-transparent
+      "
               />
+
+              {/* =================================================
+        LITTLEWHITEUP — DARK CAR SILHOUETTE
+    ================================================= */}
+
+              <div
+                aria-hidden="true"
+                className="
+        pointer-events-none
+        absolute
+        right-[-90px]
+        top-1/2
+        z-[1]
+        h-[570px]
+        w-[570px]
+        -translate-y-1/2
+        opacity-70
+        transition-all
+        duration-1000
+        ease-out
+        group-hover:right-[-55px]
+        group-hover:opacity-90
+        sm:right-[-70px]
+        sm:h-[650px]
+        sm:w-[650px]
+        sm:group-hover:right-[-35px]
+      "
+              >
+                {/* lumière derrière la voiture */}
+
+                <div
+                  className="
+          absolute
+          left-1/2
+          top-1/2
+          h-[420px]
+          w-[420px]
+          -translate-x-1/2
+          -translate-y-1/2
+          rounded-full
+          bg-white/[0.035]
+          blur-[90px]
+          transition-all
+          duration-1000
+          group-hover:bg-violet-400/[0.06]
+        "
+                />
+
+                {/* voiture */}
+
+                <img
+                  src="/upnobg.png"
+                  alt=""
+                  className="
+          relative
+          h-full
+          w-full
+          object-contain
+          object-center
+          brightness-[0.38]
+          contrast-[1.7]
+          grayscale
+          opacity-80
+          drop-shadow-[0_0_45px_rgba(255,255,255,0.08)]
+          transition-all
+          duration-1000
+          group-hover:brightness-[0.52]
+          group-hover:contrast-[1.9]
+          group-hover:opacity-100
+          group-hover:drop-shadow-[0_0_55px_rgba(255,255,255,0.12)]
+        "
+                />
+
+                {/* fondu noir sur la gauche */}
+
+                <div
+                  className="
+          absolute
+          inset-y-0
+          left-0
+          w-[55%]
+          bg-gradient-to-r
+          from-[#111]
+          via-[#111]/80
+          to-transparent
+        "
+                />
+
+                {/* fondu noir en bas */}
+
+                <div
+                  className="
+          absolute
+          inset-x-0
+          bottom-0
+          h-[45%]
+          bg-gradient-to-t
+          from-[#080808]
+          via-[#080808]/70
+          to-transparent
+        "
+                />
+              </div>
+
+              {/* =================================================
+        CONTENT
+    ================================================= */}
 
               <div
                 className="
-                  relative
-                  flex
-                  min-h-[520px]
-                  flex-col
-                  justify-between
-                  p-7
-                  sm:p-10
-                  lg:p-12
-                "
+        relative
+        z-10
+        flex
+        min-h-[520px]
+        flex-col
+        justify-between
+        p-7
+        sm:p-10
+        lg:p-12
+      "
               >
                 {/* Header */}
 
@@ -508,12 +618,13 @@ export default function Home() {
 
                     <h2
                       className="
-                        mt-3
-                        text-4xl
-                        font-medium
-                        tracking-[-0.05em]
-                        sm:text-6xl
-                      "
+              mt-3
+              text-4xl
+              font-medium
+              tracking-[-0.05em]
+              text-white
+              sm:text-6xl
+            "
                     >
                       {t.littleWhiteUpTitle}
                     </h2>
@@ -521,20 +632,20 @@ export default function Home() {
 
                   <div
                     className="
-                      flex
-                      h-11
-                      w-11
-                      items-center
-                      justify-center
-                      rounded-full
-                      border
-                      border-white/10
-                      bg-white/[0.06]
-                      backdrop-blur-xl
-                      transition-transform
-                      duration-500
-                      group-hover:rotate-12
-                    "
+            flex
+            h-11
+            w-11
+            items-center
+            justify-center
+            rounded-full
+            border
+            border-white/10
+            bg-white/[0.06]
+            backdrop-blur-xl
+            transition-transform
+            duration-500
+            group-hover:rotate-12
+          "
                   >
                     <ArrowUpRight size={18} />
                   </div>
@@ -545,24 +656,24 @@ export default function Home() {
                 <div>
                   <p
                     className="
-                      max-w-md
-                      text-lg
-                      leading-7
-                      text-white/60
-                    "
+            max-w-md
+            text-lg
+            leading-7
+            text-white/60
+          "
                   >
                     {t.littleWhiteUpDescription}
                   </p>
 
                   <div
                     className="
-                      mt-8
-                      flex
-                      items-center
-                      gap-2
-                      text-sm
-                      text-white/60
-                    "
+            mt-8
+            flex
+            items-center
+            gap-2
+            text-sm
+            text-white/60
+          "
                   >
                     <InstagramIcon />
                     @littlewhiteup

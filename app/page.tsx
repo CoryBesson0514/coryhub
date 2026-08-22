@@ -489,105 +489,87 @@ export default function Home() {
               />
 
               {/* =================================================
-        LITTLEWHITEUP — DARK CAR SILHOUETTE
-    ================================================= */}
+    LITTLEWHITEUP — SUBTLE CAR SHADOW
+================================================= */}
 
               <div
                 aria-hidden="true"
                 className="
-        pointer-events-none
-        absolute
-        right-[-90px]
-        top-1/2
-        z-[1]
-        h-[570px]
-        w-[570px]
-        -translate-y-1/2
-        opacity-70
-        transition-all
-        duration-1000
-        ease-out
-        group-hover:right-[-55px]
-        group-hover:opacity-90
-        sm:right-[-70px]
-        sm:h-[650px]
-        sm:w-[650px]
-        sm:group-hover:right-[-35px]
-      "
+    pointer-events-none
+    absolute
+    right-[-110px]
+    top-1/2
+    z-[1]
+    h-[560px]
+    w-[560px]
+    -translate-y-1/2
+    opacity-40
+    transition-all
+    duration-1000
+    ease-out
+    group-hover:right-[-80px]
+    group-hover:opacity-50
+    sm:right-[-90px]
+    sm:h-[630px]
+    sm:w-[630px]
+    sm:group-hover:right-[-55px]
+  "
               >
-                {/* lumière derrière la voiture */}
-
-                <div
-                  className="
-          absolute
-          left-1/2
-          top-1/2
-          h-[420px]
-          w-[420px]
-          -translate-x-1/2
-          -translate-y-1/2
-          rounded-full
-          bg-white/[0.035]
-          blur-[90px]
-          transition-all
-          duration-1000
-          group-hover:bg-violet-400/[0.06]
-        "
-                />
-
-                {/* voiture */}
-
                 <img
-                  src="/upnobg.png"
+                  src="/littlewhiteup-front.png"
                   alt=""
                   className="
-          relative
-          h-full
-          w-full
-          object-contain
-          object-center
-          brightness-[0.38]
-          contrast-[1.7]
-          grayscale
-          opacity-80
-          drop-shadow-[0_0_45px_rgba(255,255,255,0.08)]
-          transition-all
-          duration-1000
-          group-hover:brightness-[0.52]
-          group-hover:contrast-[1.9]
-          group-hover:opacity-100
-          group-hover:drop-shadow-[0_0_55px_rgba(255,255,255,0.12)]
-        "
+      relative
+      h-full
+      w-full
+      object-contain
+      object-center
+
+      brightness-[0.22]
+      contrast-[1.35]
+      grayscale
+
+      opacity-70
+
+      drop-shadow-[0_0_30px_rgba(255,255,255,0.035)]
+
+      transition-all
+      duration-1000
+
+      group-hover:brightness-[0.30]
+      group-hover:contrast-[1.5]
+      group-hover:opacity-80
+    "
                 />
 
-                {/* fondu noir sur la gauche */}
+                {/* Fondu totalement transparent vers la gauche */}
 
                 <div
                   className="
-          absolute
-          inset-y-0
-          left-0
-          w-[55%]
-          bg-gradient-to-r
-          from-[#111]
-          via-[#111]/80
-          to-transparent
-        "
+      absolute
+      inset-y-0
+      left-0
+      w-[60%]
+      bg-gradient-to-r
+      from-[#111]
+      via-[#111]/85
+      to-transparent
+    "
                 />
 
-                {/* fondu noir en bas */}
+                {/* Fondu inférieur */}
 
                 <div
                   className="
-          absolute
-          inset-x-0
-          bottom-0
-          h-[45%]
-          bg-gradient-to-t
-          from-[#080808]
-          via-[#080808]/70
-          to-transparent
-        "
+      absolute
+      inset-x-0
+      bottom-0
+      h-[35%]
+      bg-gradient-to-t
+      from-[#111]
+      via-[#111]/70
+      to-transparent
+    "
                 />
               </div>
 

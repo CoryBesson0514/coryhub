@@ -510,8 +510,8 @@ export default function Home() {
                   className="
       absolute
       right-[-38%]
-      top-1/2
-      h-[110%] {/* taille image up */}
+      top-[58%]
+      h-[105%]
       w-auto
       max-w-none
       -translate-y-1/2
@@ -519,37 +519,12 @@ export default function Home() {
       brightness-[0.22]
       contrast-[1.4]
       opacity-80
+      [mask-image:linear-gradient(to_right,transparent_0%,black_45%,black_100%)]
+      [-webkit-mask-image:linear-gradient(to_right,transparent_0%,black_45%,black_100%)]
       transition-all
       duration-700
       group-hover:brightness-[0.28]
       group-hover:opacity-90
-    "
-                />
-
-                {/* Fondu uniquement sur la partie gauche */}
-                <div
-                  className="
-      absolute
-      inset-y-0
-      left-0
-      w-[55%]
-      bg-gradient-to-r
-      from-[#111]
-      via-[#111]/90
-      to-transparent
-    "
-                />
-
-                {/* Fondu très léger vers le bas */}
-                <div
-                  className="
-      absolute
-      inset-x-0
-      bottom-0
-      h-[22%]
-      bg-gradient-to-t
-      from-[#111]
-      to-transparent
     "
                 />
               </div>

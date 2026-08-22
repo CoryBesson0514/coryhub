@@ -511,7 +511,7 @@ export default function Home() {
       absolute
       right-[-38%]
       top-[58%]
-      h-[105%]
+      h-[130%]
       w-auto
       max-w-none
       -translate-y-1/2

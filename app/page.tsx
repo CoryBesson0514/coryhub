@@ -489,7 +489,7 @@ export default function Home() {
               />
 
               {/* =================================================
-    LITTLEWHITEUP — SUBTLE CAR SHADOW
+    LITTLEWHITEUP — CAR SILHOUETTE
 ================================================= */}
 
               <div
@@ -498,68 +498,69 @@ export default function Home() {
     pointer-events-none
     absolute
     inset-y-0
-    left-0
-    w-[65%]
-    bg-gradient-to-r
-    from-[#111]
-    via-[#111]/80
-    to-transparent
+    right-0
+    w-[62%]
+    overflow-hidden
   "
               >
                 <img
                   src="/upnobg.png"
                   alt=""
                   className="
-      relative
-      h-full
-      w-full
+      absolute
+      right-[-8%]
+      top-1/2
+      h-[88%]
+      w-auto
+      max-w-none
+      -translate-y-1/2
       object-contain
-      object-center
-
-      brightness-[0.22]
-      contrast-[1.35]
+      brightness-[0.24]
+      contrast-[1.5]
       grayscale
-
-      opacity-70
-
-      drop-shadow-[0_0_30px_rgba(255,255,255,0.035)]
-
+      opacity-80
+      drop-shadow-[0_0_35px_rgba(255,255,255,0.04)]
       transition-all
       duration-1000
-
-      group-hover:brightness-[0.30]
-      group-hover:contrast-[1.5]
-      group-hover:opacity-80
+      group-hover:brightness-[0.32]
+      group-hover:opacity-90
     "
                 />
 
-                {/* Fondu totalement transparent vers la gauche */}
-
+                {/* Fondu de la voiture vers la gauche */}
                 <div
                   className="
       absolute
       inset-y-0
       left-0
-      w-[60%]
+      w-[65%]
       bg-gradient-to-r
       from-[#111]
-      via-[#111]/85
+      via-[#111]/80
       to-transparent
     "
                 />
 
-                {/* Fondu inférieur */}
-
+                {/* Fondu vers le bas */}
                 <div
                   className="
       absolute
       inset-x-0
       bottom-0
-      h-[35%]
+      h-[30%]
       bg-gradient-to-t
       from-[#111]
       via-[#111]/70
       to-transparent
+    "
+                />
+
+                {/* Légère brume autour de la voiture */}
+                <div
+                  className="
+      absolute
+      inset-0
+      bg-[radial-gradient(ellipse_at_75%_50%,rgba(255,255,255,0.035),transparent_55%)]
     "
                 />
               </div>

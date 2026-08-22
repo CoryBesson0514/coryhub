@@ -516,7 +516,7 @@ export default function Home() {
   "
               >
                 <img
-                  src="/littlewhiteup-front.png"
+                  src="/upnobg.png"
                   alt=""
                   className="
       relative

@@ -18,8 +18,8 @@ const translations = {
     description: "Find me online and follow my latest projects.",
     instagram: "Instagram",
     littleWhiteUp: "LittleWhiteUp",
-    whatsapp: "WhatsApp",
-    letsTalk: "Let's talk",
+    portfolio: "Portfolio",
+    letsTalk: "Let's discover my portfolio",
     close: "Close",
     copyright: "© 2026 Cory Besson",
   },
@@ -30,8 +30,8 @@ const translations = {
     description: "Retrouve-moi en ligne et suis mes derniers projets.",
     instagram: "Instagram",
     littleWhiteUp: "LittleWhiteUp",
-    whatsapp: "WhatsApp",
-    letsTalk: "Discutons",
+    portfolio: "Portfolio",
+    letsTalk: "Découvrez mon portfolio",
     close: "Fermer",
     copyright: "© 2026 Cory Besson",
   },
@@ -285,11 +285,11 @@ export default function SocialModal({
                   icon={<InstagramIcon />}
                 />
 
-                {/* WhatsApp */}
+                {/* Portfolio */}
 
                 <SocialLink
-                  href="https://wa.me/33609581742"
-                  label={t.whatsapp}
+                  href="https://coryfolio.vercel.app/"
+                  label={t.portfolio}
                   username={t.letsTalk}
                   icon={<MessageCircle size={19} strokeWidth={1.8} />}
                 />

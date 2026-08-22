@@ -415,7 +415,7 @@ export default function Home() {
                 text-white/25
               "
             >
-              <span>Scroll to explore</span>
+              <span>Scroll !</span>
 
               <span className="scroll-indicator text-white/40">↓</span>
             </motion.div>

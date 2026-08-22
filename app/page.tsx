@@ -489,7 +489,7 @@ export default function Home() {
               />
 
               {/* =================================================
-    LITTLEWHITEUP — CAR SILHOUETTE
+    LITTLEWHITEUP — CAR
 ================================================= */}
 
               <div
@@ -499,7 +499,8 @@ export default function Home() {
     absolute
     inset-y-0
     right-0
-    w-[62%]
+    z-[1]
+    w-[48%]
     overflow-hidden
   "
               >
@@ -508,59 +509,47 @@ export default function Home() {
                   alt=""
                   className="
       absolute
-      right-[-8%]
+      right-[-38%]
       top-1/2
-      h-[88%]
+      h-[78%]
       w-auto
       max-w-none
       -translate-y-1/2
-      object-contain
-      brightness-[0.24]
-      contrast-[1.5]
       grayscale
+      brightness-[0.22]
+      contrast-[1.4]
       opacity-80
-      drop-shadow-[0_0_35px_rgba(255,255,255,0.04)]
       transition-all
-      duration-1000
-      group-hover:brightness-[0.32]
+      duration-700
+      group-hover:brightness-[0.28]
       group-hover:opacity-90
     "
                 />
 
-                {/* Fondu de la voiture vers la gauche */}
+                {/* Fondu uniquement sur la partie gauche */}
                 <div
                   className="
       absolute
       inset-y-0
       left-0
-      w-[65%]
+      w-[55%]
       bg-gradient-to-r
       from-[#111]
-      via-[#111]/80
+      via-[#111]/90
       to-transparent
     "
                 />
 
-                {/* Fondu vers le bas */}
+                {/* Fondu très léger vers le bas */}
                 <div
                   className="
       absolute
       inset-x-0
       bottom-0
-      h-[30%]
+      h-[22%]
       bg-gradient-to-t
       from-[#111]
-      via-[#111]/70
       to-transparent
-    "
-                />
-
-                {/* Légère brume autour de la voiture */}
-                <div
-                  className="
-      absolute
-      inset-0
-      bg-[radial-gradient(ellipse_at_75%_50%,rgba(255,255,255,0.035),transparent_55%)]
     "
                 />
               </div>

@@ -497,22 +497,13 @@ export default function Home() {
                 className="
     pointer-events-none
     absolute
-    right-[-110px]
-    top-1/2
-    z-[1]
-    h-[560px]
-    w-[560px]
-    -translate-y-1/2
-    opacity-40
-    transition-all
-    duration-1000
-    ease-out
-    group-hover:right-[-80px]
-    group-hover:opacity-50
-    sm:right-[-90px]
-    sm:h-[630px]
-    sm:w-[630px]
-    sm:group-hover:right-[-55px]
+    inset-y-0
+    left-0
+    w-[65%]
+    bg-gradient-to-r
+    from-[#111]
+    via-[#111]/80
+    to-transparent
   "
               >
                 <img

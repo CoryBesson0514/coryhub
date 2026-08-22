@@ -511,7 +511,7 @@ export default function Home() {
       absolute
       right-[-38%]
       top-1/2
-      h-[95%] {/* taille image up */}
+      h-[110%] {/* taille image up */}
       w-auto
       max-w-none
       -translate-y-1/2

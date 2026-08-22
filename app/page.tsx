@@ -491,6 +491,7 @@ export default function Home() {
               {/* =================================================
     LITTLEWHITEUP — CAR
 ================================================= */}
+              {/* taille image up modifier "h-[130%]"/}
 
               <div
                 aria-hidden="true"
